@@ -9,7 +9,11 @@ fun main(){
     }
 
     //soal 2
-    var angka = 2
+    val angka = 2
+    val pangkat = 3
+    val result = Math.pow(angka.toDouble(), pangkat.toDouble())
+
+    println("Answer = $result")
 
 
 
